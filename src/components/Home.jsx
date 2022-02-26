@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Home = () => {
   return (
-    <div className="mt-8 px-2 sm:px-3 sm:mt-12 lg:px-52">
+    <div className="mt-14 px-2 sm:px-3 sm:mt-12 lg:px-52">
       <h1 className="text-center font-bold text-3xl mb-4 sm:mb-8 sm:text-4xl lg:text-6xl ">
         The Shoe Company Name
       </h1>
@@ -25,7 +25,7 @@ const Home = () => {
             name="search"
             id="search"
             placeholder="Search...."
-            className="px-2 py-1 rounded-md border-2 border-gray-300 mx-3 focus:outline-orange-400 sm:mx-6 lg:text-xl"
+            className="px-2 py-1 rounded-md border-2 border-gray-300 mx-3 focus:outline-orange-400 sm:mx-6 lg:text-xl dark:border-2 dark:border-gray-500"
           />
           <button className="bg-orange-400 text-white font-semibold px-4 py-2 rounded-md hover:bg-orange-500 lg:text-xl lg:px-8 ">
             Search
@@ -33,7 +33,7 @@ const Home = () => {
         </form>
       </section>
       <hr className="mt-6" />
-      <section className="mb-20 mt-10 flex flex-wrap justify-center">
+      <section className="mt-10 flex flex-wrap justify-center">
         <Card />
         <Card />
         <Card />
