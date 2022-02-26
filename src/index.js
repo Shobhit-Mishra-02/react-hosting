@@ -1,21 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Link } from "react-router-dom";
+import Navigation from "./components/Naviation";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <nav>
-        <li>
-          <Link to={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link to={"/page"}>Page</Link>
-        </li>
-      </nav>
+      <Navigation />
       <App />
     </BrowserRouter>
   </React.StrictMode>,
