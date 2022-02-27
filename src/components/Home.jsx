@@ -1,7 +1,7 @@
 import Card from "./Card";
 import { useState } from "react";
 import { useEffect } from "react";
-import productData from "../data/data";
+import productData from "./data/data";
 
 //Here I have created Home component where I have added search feature and all the product cards
 

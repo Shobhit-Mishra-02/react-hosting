@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import productData from "../data/data";
+import productData from "./data/data";
 import { useEffect } from "react";
 import { useState } from "react";
 import Counter from "./Counter";
