@@ -7,7 +7,7 @@ import { useState } from "react";
 import Footer from "./Footer";
 
 function App() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("");
   return (
     <themeColor.Provider value={[theme, setTheme]}>
       <div className={theme}>
@@ -15,7 +15,7 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/productView" element={<ProductView />}></Route>
+            <Route path="/productView/:id" element={<ProductView />}></Route>
           </Routes>
           <Footer />
         </div>
