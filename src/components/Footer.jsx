@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-slate-300 dark:bg-slate-700 dark:text-white mt-20 py-12 rounded-t-md">
       <div className="flex justify-between px-24">
-        <img src="http://localhost:3000/amazon.png" alt="logo" />
+        <img src="https://shobhit-mishra-02.github.io/amazon.png" alt="logo" />
         <ul className="flex space-x-5 text-gray-500">
           <li>
             <Link

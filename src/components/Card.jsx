@@ -14,7 +14,7 @@ const Card = (props) => {
         <h2 className="text-2xl">{props.shoeName}</h2>
         <span className="px-1 py-1 rounded-md flex justify-center font-semibold bg-orange-200 dark:text-black">
           <img
-            src="https://shobhit-mishra-02.github.io/react-hosting/star.png"
+            src={`https://shobhit-mishra-02.github.io/react-hosting/star.png`}
             alt="star"
             className="mr-1 w-6"
           />
