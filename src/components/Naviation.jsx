@@ -7,6 +7,7 @@ import themeColor from "../context";
 const Navigation = () => {
   const [theme, setTheme] = useContext(themeColor);
 
+  //This function will change the theme
   const changeTheme = () => {
     if (theme.length) {
       setTheme("");

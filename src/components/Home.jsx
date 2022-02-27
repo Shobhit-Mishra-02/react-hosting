@@ -8,6 +8,7 @@ import productData from "../data/data";
 const Home = () => {
   const [cardData, setCardData] = useState([]);
 
+  //This function is for making search
   const doSearch = (e) => {
     const searchStr = e.target.value;
     let tempArray = [];
