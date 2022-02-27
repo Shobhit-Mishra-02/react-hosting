@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
+//Here I have created Footer component
+
 const Footer = () => {
   return (
     <div className="bg-slate-300 dark:bg-slate-700 dark:text-white mt-20 py-12 rounded-t-md">
       <div className="flex justify-between px-24">
-        {/* <h1 className="text-2xl font-semibold">The Logo</h1> */}
         <img src="http://localhost:3000/amazon.png" alt="logo" />
         <ul className="flex space-x-5 text-gray-500">
           <li>

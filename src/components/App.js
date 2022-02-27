@@ -6,6 +6,7 @@ import themeColor from "../context";
 import { useState } from "react";
 import Footer from "./Footer";
 
+// Inside App I have added routes
 function App() {
   const [theme, setTheme] = useState("");
   return (

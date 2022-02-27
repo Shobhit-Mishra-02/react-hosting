@@ -1,12 +1,16 @@
 import { useState } from "react";
 
+// Here I have created Counter component
+
 const Counter = () => {
   const [counter, setCounter] = useState(1);
 
+  // function for increasing count
   const increaseCount = () => {
     setCounter(counter + 1);
   };
 
+  // function for decreasing count
   const reduceCount = () => {
     if (counter > 1) {
       setCounter(counter - 1);

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+// Here I have created Card component
+
 const Card = (props) => {
   return (
     <div className="w-72 pt-3 rounded-md shadow-xl shadow-gray-500 mx-4 my-4 dark:bg-slate-500 dark:shadow-slate-700 dark:text-white">

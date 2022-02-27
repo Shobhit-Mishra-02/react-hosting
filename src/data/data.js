@@ -1,3 +1,11 @@
+/*
+Here I have added an array of product details,
+each product contains shoe name, shoe price, star rating,
+shoe Image, id, desc for the product card (desc), desc for the product view component(productViewDesc)
+
+This array is the data which we need to display on the frontend of the ecom website.
+*/
+
 const productData = [
   {
     shoeName: "Bata",

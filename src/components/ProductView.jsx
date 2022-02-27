@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Counter from "./Counter";
 
+//This component is for the product view
+
 const ProductView = () => {
   let { id } = useParams();
   const [prodData, setProdData] = useState({});

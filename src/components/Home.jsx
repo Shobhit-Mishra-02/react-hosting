@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import productData from "../data/data";
 
+//Here I have created Home component where I have added search feature and all the product cards
+
 const Home = () => {
   const [cardData, setCardData] = useState([]);
 

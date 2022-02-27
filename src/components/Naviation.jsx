@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import themeColor from "../context";
 
+//Here I have created component for the Navigation bar
+
 const Navigation = () => {
   const [theme, setTheme] = useContext(themeColor);
 
