@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <div className="w-72 pt-3 rounded-md shadow-xl shadow-gray-500 mx-4 my-4 dark:bg-slate-500 dark:shadow-slate-700 dark:text-white">
       <img
-        src={`https://shobhit-mishra-02.github.io/react-hosting/${props.shoeImg}`}
+        src={`http://localhost:3000/${props.shoeImg}`}
         alt="shoe-images"
         className="rounded-t-md m-auto h-52"
       />
@@ -14,7 +14,7 @@ const Card = (props) => {
         <h2 className="text-2xl">{props.shoeName}</h2>
         <span className="px-1 py-1 rounded-md flex justify-center font-semibold bg-orange-200 dark:text-black">
           <img
-            src={`https://shobhit-mishra-02.github.io/react-hosting/star.png`}
+            src={`http://localhost:3000/star.png`}
             alt="star"
             className="mr-1 w-6"
           />

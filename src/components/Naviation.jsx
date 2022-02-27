@@ -21,7 +21,7 @@ const Navigation = () => {
       <div>
         <Link to={"/"}>
           <img
-            src="https://shobhit-mishra-02.github.io/amazon.png"
+            src="http://localhost:3000/amazon.png"
             alt="logo"
             className="w-24"
           />
