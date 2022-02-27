@@ -19,9 +19,9 @@ const Navigation = () => {
   return (
     <nav className="flex align-middle flex-wrap justify-between space-x-5 text-xl font-semibold bg-blue-500 sticky top-0 shadow-md shadow-slate-500 py-4 px-2 sm:px-8 dark:bg-slate-800 dark:text-white">
       <div>
-        <Link to={"/"}>
+        <Link to={"/react-hosting"}>
           <img
-            src="http://localhost:3000/amazon.png"
+            src="https://shobhit-mishra-02.github.io/react-hosting/amazon.png"
             alt="logo"
             className="w-24"
           />
@@ -62,13 +62,13 @@ const Navigation = () => {
           )}
         </li>
         <li className="list-none hover:text-gray-600">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/react-hosting"}>Home</Link>
         </li>
         <li className="list-none hover:text-gray-600">
-          <Link to={"/page"}>Products</Link>
+          <Link to={"/react-hosting"}>Products</Link>
         </li>
         <li className="list-none hover:text-gray-600">
-          <Link to={"/page"}>Featured</Link>
+          <Link to={"/react-hosting"}>Featured</Link>
         </li>
       </div>
     </nav>

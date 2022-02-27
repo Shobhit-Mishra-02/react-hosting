@@ -22,7 +22,7 @@ const ProductView = () => {
     <div className="flex flex-wrap justify-center mt-20 my-40 mx-10 py-5  dark:rounded-md dark:shadow-xl dark:shadow-slate-800 dark:bg-slate-800 dark:text-white">
       <img
         className="w-[350px] h-[350px]"
-        src={`http://localhost:3000/${prodData.shoeImg}`}
+        src={`https://shobhit-mishra-02.github.io/react-hosting/${prodData.shoeImg}`}
         alt="img"
       />
 
@@ -33,7 +33,7 @@ const ProductView = () => {
           </h1>
           <span className="px-1 py-1 rounded-md flex justify-center font-bold h-8 bg-orange-200 mt-6 mx-4 dark:text-black">
             <img
-              src="http://localhost:3000/star.png"
+              src="https://shobhit-mishra-02.github.io/react-hosting/star.png"
               alt="star"
               className="mr-1 w-6"
             />

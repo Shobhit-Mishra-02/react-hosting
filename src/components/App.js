@@ -15,8 +15,11 @@ function App() {
         <div className="h-[100%] dark:bg-slate-300">
           <Navigation />
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/productView/:id" element={<ProductView />}></Route>
+            <Route path="/react-hosting" element={<Home />}></Route>
+            <Route
+              path="/react-hosting/productView/:id"
+              element={<ProductView />}
+            ></Route>
           </Routes>
           <Footer />
         </div>
